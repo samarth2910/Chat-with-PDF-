@@ -17,7 +17,7 @@ A **Streamlit** app that lets you ask questions from PDF files using **Google Ge
 - Google Gemini API
 
 ## Live Demo
-[Try the app on Streamlit]([https://your-app-name.streamlit.app](https://pdfchat121.streamlit.app/))
+[Try the app on Streamlit]([https://your-app-name.streamlit.app])
 
 
 ## Demo / Screenshot
