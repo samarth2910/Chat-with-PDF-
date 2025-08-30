@@ -1,0 +1,7 @@
+__pycache__/
+.env
+*.pyc
+faiss_index/
+# Python virtual environment
+myenv/
+
