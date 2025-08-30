@@ -19,5 +19,6 @@ A **Streamlit** app that lets you ask questions from PDF files using **Google Ge
 ## Demo / Screenshot
 ![App Screenshot](Screenshot%20(98).png)*
 ![App Screenshot](Screenshot%20(99).png)  
+
 *Upload PDFs, process, and ask questions interactively.*
 
