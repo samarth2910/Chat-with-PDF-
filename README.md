@@ -1,4 +1,4 @@
-# Chat with PDF 
+# Chat with PDFs
 
 A **Streamlit** app that lets you ask questions from PDF files using **Google Gemini LLM**, **LangChain**, and **FAISS** for vector embeddings.
 
