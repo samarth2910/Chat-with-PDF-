@@ -1,16 +1,19 @@
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-import os
+# import os
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# Load API key from .env
-load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+# Load API key from .env (commented out for Streamlit Cloud)
+# load_dotenv()
+# GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+# Use Streamlit secrets instead
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 # Configure Google Gemini API
 import google.generativeai as genai
